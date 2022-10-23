@@ -1,0 +1,144 @@
+body{
+  background-image: url("images/bg-mobile.png");
+  padding: 4rem 1rem  4rem 1rem;
+}
+.firstContainer{
+  background-color: hsl(228, 56%, 26%);
+  padding: 2rem;
+  border-radius: 10px 60px 10px 10px;
+  width: 16.5rem;
+}
+.tools{
+  margin-top: 1.5rem;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.imgWrap{
+  background-color: hsl(229, 57%, 11%);
+  padding: 1rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 12px;
+   text-align: center;
+}
+.secondContainer{
+  background-color: hsl(228, 56%, 26%);
+  margin-top: 1rem;
+  padding: 2rem 2rem 4rem 2rem;
+  width: 16.5rem;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.backgroundLine{
+  background-color: hsl(229, 57%, 11%);
+  padding: 0.1rem;
+  border-radius: 10px;
+}
+.line{
+  width: 70%;
+  height: 0.8rem;
+  border-radius: 10px;
+  background-color: hsl(6, 100%, 80%);
+  display: flex;
+  justify-content: flex-end;
+}
+.dot{
+  width: 6%;
+  height: 80%;
+  background-color: white;
+  border-radius: 15px;
+  /* z-index: 2; */
+  margin: auto 0 auto 0;
+}
+p{
+  opacity: 70%;
+}
+.para:nth-of-type(2) {
+  float: left;
+}
+.para:nth-of-type(3) {
+  float: right;
+}
+.gbLeft{
+  width: 50%;
+  height: 30%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  color: black;
+  border-radius: 8px 8px 0px 8px;
+  position: absolute;
+  left: 23%;
+  top: 85%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1.3rem;
+}
+.gbLeft h1{
+  font-size: 1.7rem;
+}
+.paragraph{
+  padding: 0.8rem 0 0.8rem 0.5rem;
+}
+.paragraph p{
+  opacity: 40%;
+}
+@media (min-width:380px) {
+  body{
+    /* display: flex;
+    justify-content: center; */
+    padding: 10rem 16rem 10rem 16rem;
+    text-align: center;
+  }
+  .firstContainer{
+    float: left;
+  }
+  .secondContainer{
+    width: 25rem;
+    height: 6rem;
+    float: right;
+    padding: 1.5rem;
+    margin-top: 2.5rem;
+    text-align: left;
+    position:inherit;
+  }
+  .gbLeft{
+    position: absolute;
+    left: 67%;
+    top: 25%;
+    width: 10rem;
+    height: 3rem;
+    padding-bottom: 1.7rem;
+  }
+  .gbLeft:after {
+    content: '';
+  	position: absolute;
+  	bottom: 0;
+  	left: 50%;
+  	width: 0;
+  	height: 0;
+  	border: 25px solid transparent;
+  	border-top-color: white;
+  	border-bottom: 0;
+  	border-right: 0;
+  	margin-left: 55px;
+  	margin-bottom: -25px;
+}
+.gbLeft h1{
+  font-size: 2rem;
+}
+.paragraph{
+  padding: 1.5rem 0 0rem 0.5rem;
+}
+.paragraph p{
+  opacity: 40%;
+  font-size: 0.7rem;
+}
+}
